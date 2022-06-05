@@ -45,14 +45,14 @@
 //                                         |   tab   |   home  |   end   |   del   |
 //                                         |  raise  |    ~    |   gui   |  lower  |
             bindings = <
-&trans  &kp F1     &kp F2    &kp F3     &kp F4     &kp F5                          &kp F6     &kp F7     &kp F8     &kp F9     &kp F10        &kp F11
-&trans  &trans     &trans    &trans     &trans     &kp LBKT                        &kp RBKT   &kp 7      &kp 8      &kp 9      &trans         &kp F12
-&trans  &kp HOME   &kp PG_UP &kp PG_DN  &kp END    &kp LPAR                        &kp RPAR   &kp 4      &kp 5      &kp 6      &kp MINUS      &kp PIPE
-&trans  &trans     &trans    &trans     &trans     &trans                          &trans     &kp 1      &kp 2      &kp 3      &kp FSLH       &kp UNDER
-                   &trans    &kp PSCRN                                                                   &trans  &trans
-                                            &trans  &trans                 &trans   &trans
-                                                      &trans &trans   &trans    &trans
-                                                      &trans &trans   &trans    &trans
+&bt BT_SEL 0 &kp F1     &kp F2    &kp F3     &kp F4     &kp F5                          &kp F6        &kp F7     &kp F8     &kp F9     &kp F10        &kp F11
+&bt BT_NXT   &trans     &trans    &trans     &trans     &kp LBKT                        &kp RBKT      &kp 7      &kp 8      &kp 9      &trans         &kp F12
+&bt BT_PRV   &kp HOME   &kp PG_UP &kp PG_DN  &kp END    &kp LPAR                        &kp RPAR      &kp 4      &kp 5      &kp 6      &kp MINUS      &kp PIPE
+&bt BT_CLR   &trans     &trans    &trans     &trans     &reset                          &bootloader   &kp 1      &kp 2      &kp 3      &kp FSLH       &kp UNDER
+                        &trans    &kp PSCRN                                                                      &trans     &trans
+                                             &trans     &trans                          &trans        &trans
+                                                        &trans &trans            &trans &trans
+                                                        &trans &trans            &trans &trans
             >;
         };
 
